@@ -1,6 +1,8 @@
 body {
     background: linear-gradient(135deg,rgba(59,99,245,.99),#2a37b3 54%,#120038) 50% no-repeat;
-    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
 }
 .btn-trans-box {
     border-color: hsla(0,0%,100%,.5);
@@ -42,6 +44,7 @@ body {
     height: 300px;
     background: #fff;
     top: 30vh;
+    border-radius: 30px;
 }
 .rightArrowBtn {
     position: fixed;
@@ -58,6 +61,8 @@ body {
     font-family: sans-serif;
     font-size: 40px;
     font-weight: bold;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
 }
 .sectorTitleWrapper {
     position: fixed;
@@ -72,4 +77,24 @@ body {
     background; #fff;
     border: none;
     width: 100%;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+}
+.coverSmallTrans {
+    width: 300px;
+    height: 300px;
+    opacity: 0.6;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    border-radius: 30px;
+}
+#slidePort {
+    position: fixed;
+    z-index: 999;
+    top: 100vh;
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
 }
