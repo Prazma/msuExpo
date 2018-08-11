@@ -1,1 +1,3 @@
 # msuExpo
+### idea
+* 
